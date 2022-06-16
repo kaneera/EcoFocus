@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -51,6 +51,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.58361502440000002" green="0.71349636169999997" blue="0.29233783619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="IAy-bd-j99" kind="show" id="B78-Lp-6KR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUd-iR-RFo">
                                 <rect key="frame" x="60" y="654" width="293" height="93"/>
@@ -59,6 +62,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.50078110516446139" green="0.61142306855260409" blue="0.26344121347337723" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="w7K-Ad-Fkm" kind="show" id="Cgp-JW-iDn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhe-xq-xFI">
                                 <rect key="frame" x="60" y="430" width="293" height="93"/>
@@ -67,6 +73,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="" cornerStyle="capsule">
                                     <color key="baseBackgroundColor" red="0.57067312120000002" green="0.69358070449999998" blue="0.29083898209999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Sdf-c7-g6Z" kind="show" id="CLW-w1-ZUB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reminders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCt-8X-aUv">
                                 <rect key="frame" x="147" y="348" width="140" height="39"/>
@@ -97,7 +106,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="eVl-uN-JDo">
-                                <rect key="frame" x="53" y="154" width="310" height="195"/>
+                                <rect key="frame" x="51" y="156" width="310" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="F2D-Yo-eNo">
@@ -116,13 +125,6 @@
                                 <rect key="frame" x="197" y="746" width="129" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8we-GG-uSQ">
-                                <rect key="frame" x="323" y="125" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.83353600429999997" green="0.86047293920000001" blue="0.65596833290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -132,16 +134,17 @@
             </objects>
             <point key="canvasLocation" x="-23.188405797101453" y="53.571428571428569"/>
         </scene>
-        <!--Table View Controller-->
+        <!--reminder🌱-->
         <scene sceneID="x3Z-AR-Cxs">
             <objects>
-                <tableViewController id="j2h-6b-Zx0" sceneMemberID="viewController">
+                <tableViewController id="j2h-6b-Zx0" customClass="ToDoTableViewController" customModule="EcoFocus" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="CIL-rh-KtD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="H8L-yH-nJ9">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="H8L-yH-nJ9">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H8L-yH-nJ9" id="LAB-Fb-seU">
@@ -155,7 +158,11 @@
                             <outlet property="delegate" destination="j2h-6b-Zx0" id="3Aa-dh-HoY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="FG4-tC-O2c"/>
+                    <navigationItem key="navigationItem" title="reminder🌱" id="FG4-tC-O2c">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus.app" catalog="system" id="tA1-BX-JKO">
+                            <color key="tintColor" red="0.67843137249999996" green="0.83137254900000002" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LZY-rv-VgY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,7 +205,7 @@
             <objects>
                 <viewController id="w7K-Ad-Fkm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tFV-ec-Fpj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPS-0r-PbZ">
@@ -256,7 +263,7 @@
             <objects>
                 <viewController id="IAy-bd-j99" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5tg-eQ-E1Y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uc-XC-K2w">
@@ -281,7 +288,7 @@
             <objects>
                 <viewController id="Sdf-c7-g6Z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mgL-wG-ipe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkq-KE-iov">
@@ -327,6 +334,7 @@
         <image name="Image-4" width="800" height="342"/>
         <image name="Image-5" width="800" height="342"/>
         <image name="c" width="380" height="400"/>
+        <image name="plus.app" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
