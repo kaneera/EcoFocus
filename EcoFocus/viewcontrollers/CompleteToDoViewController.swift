@@ -20,12 +20,9 @@ class CompleteToDoViewController: UIViewController {
 
       titleLabel.text = selectedToDo.name
     }
-
-}
-  @IBAction func completeTapped(_ sender: Any)
-{
-    
+  @IBAction func completeTapped(_ sender: Any) {
   }
+}
 
 
 
