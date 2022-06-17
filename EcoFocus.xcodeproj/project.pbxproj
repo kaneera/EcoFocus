@@ -18,6 +18,8 @@
 		5EA3EDE2285A2D7000EA76A7 /* EcoFocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3EDE1285A2D7000EA76A7 /* EcoFocusUITests.swift */; };
 		5EA3EE3F285C2E6000EA76A7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3EE3E285C2E5F00EA76A7 /* TimerViewController.swift */; };
 		5EA3EE41285C44B200EA76A7 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3EE40285C44B100EA76A7 /* ResourcesViewController.swift */; };
+		B002A72A285CD3DC00743372 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A729285CD3DC00743372 /* AddToDoViewController.swift */; };
+		B002A72C285CD5FD00743372 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002A72B285CD5FD00743372 /* CompleteToDoViewController.swift */; };
 		B05A59E1285B80B4006922DD /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A59E0285B80B4006922DD /* ToDoTableViewController.swift */; };
 		B05A59E3285B8265006922DD /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A59E2285B8265006922DD /* ToDo.swift */; };
 		D0FE0292285C111D002612FD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE0291285C111B002612FD /* TableViewController.swift */; };
@@ -58,6 +60,8 @@
 		5EA3EDE3285A2D7000EA76A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EA3EE3E285C2E5F00EA76A7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		5EA3EE40285C44B100EA76A7 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		B002A729285CD3DC00743372 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		B002A72B285CD5FD00743372 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		B05A59E0285B80B4006922DD /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		B05A59E2285B8265006922DD /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		D0FE0291285C111B002612FD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +121,6 @@
 				5EA3EE40285C44B100EA76A7 /* ResourcesViewController.swift */,
 				5EA3EE3E285C2E5F00EA76A7 /* TimerViewController.swift */,
 				D0FE0291285C111B002612FD /* TableViewController.swift */,
-				B05A59E2285B8265006922DD /* ToDo.swift */,
 				B05A59DF285B8072006922DD /* viewcontrollers */,
 				5EA3EDC8285A2D6D00EA76A7 /* Assets.xcassets */,
 				5EA3EDCA285A2D6D00EA76A7 /* LaunchScreen.storyboard */,
@@ -149,6 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				5EA3EDC0285A2CE200EA76A7 /* ViewController.swift */,
+				B05A59E2285B8265006922DD /* ToDo.swift */,
+				B002A72B285CD5FD00743372 /* CompleteToDoViewController.swift */,
+				B002A729285CD3DC00743372 /* AddToDoViewController.swift */,
 				B05A59E0285B80B4006922DD /* ToDoTableViewController.swift */,
 			);
 			path = viewcontrollers;
@@ -287,7 +293,9 @@
 			files = (
 				5EA3EDC7285A2CE200EA76A7 /* EcoFocus.xcdatamodeld in Sources */,
 				D0FE0292285C111D002612FD /* TableViewController.swift in Sources */,
+				B002A72A285CD3DC00743372 /* AddToDoViewController.swift in Sources */,
 				5EA3EDC1285A2CE200EA76A7 /* ViewController.swift in Sources */,
+				B002A72C285CD5FD00743372 /* CompleteToDoViewController.swift in Sources */,
 				5EA3EDBD285A2CE200EA76A7 /* AppDelegate.swift in Sources */,
 				5EA3EE3F285C2E6000EA76A7 /* TimerViewController.swift in Sources */,
 				B05A59E3285B8265006922DD /* ToDo.swift in Sources */,
