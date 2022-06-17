@@ -16,6 +16,7 @@
 		5EA3EDCC285A2D6D00EA76A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3EDCA285A2D6D00EA76A7 /* LaunchScreen.storyboard */; };
 		5EA3EDD7285A2D7000EA76A7 /* EcoFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3EDD6285A2D7000EA76A7 /* EcoFocusTests.swift */; };
 		5EA3EDE2285A2D7000EA76A7 /* EcoFocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3EDE1285A2D7000EA76A7 /* EcoFocusUITests.swift */; };
+		5EA3EE3F285C2E6000EA76A7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3EE3E285C2E5F00EA76A7 /* TimerViewController.swift */; };
 		B05A59E1285B80B4006922DD /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A59E0285B80B4006922DD /* ToDoTableViewController.swift */; };
 		B05A59E3285B8265006922DD /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A59E2285B8265006922DD /* ToDo.swift */; };
 		D0FE0292285C111D002612FD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE0291285C111B002612FD /* TableViewController.swift */; };
@@ -54,6 +55,7 @@
 		5EA3EDDD285A2D7000EA76A7 /* EcoFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA3EDE1285A2D7000EA76A7 /* EcoFocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoFocusUITests.swift; sourceTree = "<group>"; };
 		5EA3EDE3285A2D7000EA76A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA3EE3E285C2E5F00EA76A7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		B05A59E0285B80B4006922DD /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		B05A59E2285B8265006922DD /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		D0FE0291285C111B002612FD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				5EA3EDBC285A2CE200EA76A7 /* AppDelegate.swift */,
 				5EA3EDBE285A2CE200EA76A7 /* SceneDelegate.swift */,
 				5EA3EDC2285A2CE200EA76A7 /* Main.storyboard */,
+				5EA3EE3E285C2E5F00EA76A7 /* TimerViewController.swift */,
 				D0FE0291285C111B002612FD /* TableViewController.swift */,
 				B05A59E2285B8265006922DD /* ToDo.swift */,
 				B05A59DF285B8072006922DD /* viewcontrollers */,
@@ -283,6 +286,7 @@
 				D0FE0292285C111D002612FD /* TableViewController.swift in Sources */,
 				5EA3EDC1285A2CE200EA76A7 /* ViewController.swift in Sources */,
 				5EA3EDBD285A2CE200EA76A7 /* AppDelegate.swift in Sources */,
+				5EA3EE3F285C2E6000EA76A7 /* TimerViewController.swift in Sources */,
 				B05A59E3285B8265006922DD /* ToDo.swift in Sources */,
 				5EA3EDBF285A2CE200EA76A7 /* SceneDelegate.swift in Sources */,
 				B05A59E1285B80B4006922DD /* ToDoTableViewController.swift in Sources */,
