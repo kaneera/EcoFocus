@@ -665,14 +665,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="STs-ZC-aQC">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="STs-ZC-aQC">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Def-X1-7HZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Def-X1-7HZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1126" height="808"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="June-2" translatesAutoresizingMaskIntoConstraints="NO" id="DDh-a5-umN">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="June-2" translatesAutoresizingMaskIntoConstraints="NO" id="DDh-a5-umN">
                                                 <rect key="frame" x="-18" y="79" width="449" height="353"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="449" id="Pap-PZ-Hpd"/>
@@ -709,15 +708,15 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="U0x-XT-0Wk">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="U0x-XT-0Wk">
                                                 <rect key="frame" x="191" y="323" width="49" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="fAR-do-S0y"/>
                                                     <constraint firstAttribute="width" constant="49" id="jrC-uD-ziQ"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="July 2022" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRL-MW-515">
-                                                <rect key="frame" x="139" y="444" width="136" height="46"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="July 2022" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRL-MW-515">
+                                                <rect key="frame" x="138.5" y="444" width="136" height="46"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="46" id="7XB-7i-aGi"/>
                                                     <constraint firstAttribute="width" constant="136" id="lag-EV-FJj"/>
@@ -799,18 +798,28 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Def-X1-7HZ" secondAttribute="bottom" id="CSA-4v-3Hu"/>
+                                    <constraint firstItem="Def-X1-7HZ" firstAttribute="top" secondItem="STs-ZC-aQC" secondAttribute="top" id="TNQ-O7-yHm"/>
+                                    <constraint firstItem="Def-X1-7HZ" firstAttribute="leading" secondItem="STs-ZC-aQC" secondAttribute="leading" id="Xyp-dI-dPD"/>
+                                    <constraint firstItem="Def-X1-7HZ" firstAttribute="centerY" secondItem="STs-ZC-aQC" secondAttribute="centerY" id="e4B-nE-nCQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Def-X1-7HZ" secondAttribute="trailing" id="sHX-VU-33a"/>
+                                    <constraint firstItem="Def-X1-7HZ" firstAttribute="centerX" secondItem="STs-ZC-aQC" secondAttribute="centerX" id="xMJ-zA-kZP"/>
+                                </constraints>
                             </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="s9t-CJ-Ig6">
-                                <rect key="frame" x="259" y="769" width="212" height="107"/>
+                                <rect key="frame" x="259" y="769" width="800" height="342"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zLW-jh-18W"/>
                         <color key="backgroundColor" red="0.75635126239999995" green="0.90708168170000003" blue="0.92241872420000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="s9t-CJ-Ig6" firstAttribute="top" secondItem="zLW-jh-18W" secondAttribute="top" constant="769" id="C0J-N8-X9f"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="s9t-CJ-Ig6" secondAttribute="trailing" constant="-77" id="RIx-l0-DaF"/>
-                            <constraint firstItem="s9t-CJ-Ig6" firstAttribute="leading" secondItem="zLW-jh-18W" secondAttribute="leading" constant="259" id="TSp-Vn-QGx"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="s9t-CJ-Ig6" secondAttribute="bottom" constant="-68" id="b4f-4A-WNl"/>
+                            <constraint firstItem="STs-ZC-aQC" firstAttribute="leading" secondItem="zLW-jh-18W" secondAttribute="leading" id="4Gp-F4-d8Z"/>
+                            <constraint firstItem="STs-ZC-aQC" firstAttribute="top" secondItem="zLW-jh-18W" secondAttribute="top" id="6e9-4f-aA2"/>
+                            <constraint firstItem="s9t-CJ-Ig6" firstAttribute="top" secondItem="zLW-jh-18W" secondAttribute="top" constant="769" id="Xme-dj-Ev7"/>
+                            <constraint firstItem="STs-ZC-aQC" firstAttribute="centerX" secondItem="mgL-wG-ipe" secondAttribute="centerX" id="nll-DT-KF1"/>
+                            <constraint firstItem="s9t-CJ-Ig6" firstAttribute="leading" secondItem="zLW-jh-18W" secondAttribute="leading" constant="259" id="ocm-4y-rkm"/>
+                            <constraint firstItem="STs-ZC-aQC" firstAttribute="bottom" secondItem="zLW-jh-18W" secondAttribute="bottom" id="tEY-Op-Mzw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QrA-dT-fhK"/>
